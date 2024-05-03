@@ -204,8 +204,8 @@ async function main() {
     const nftItemData = await readNftItemMetadata(client, "EQDTUKV5bMBh2SiL0eXgpO4XxPD1dp5DEpPR1fEIdHLJI40T")
     const jettonWalletData = await readJettonWalletMedata(client, "EQBhxsx1cHE34hrAM-hRRv7c26G57pe2G6Iw1LTn_5hOuRoV")
     console.log(jettonWalletData)
-    // console.log(nftData)
-    // console.log(nftItemData)
+    console.log(nftData)
+    console.log(nftItemData)
 }
 
 main()
